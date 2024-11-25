@@ -1,10 +1,12 @@
-import Heading from ".";
+import Btn from "./btn.js";
+import Heading from "./Heading.js";
 
 function App() {
   return (
     <div className="App">
-      This is the starting code for "Your first component" ungraded lab
-      <Heading />
+      <Heading firstName="Bob" />
+      <Heading firstName="Machan" />
+      <Btn />
     </div>
   );
 }
