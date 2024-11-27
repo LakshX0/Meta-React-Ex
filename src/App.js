@@ -2,6 +2,7 @@ import Btn from "./Btn.js";
 import Heading from "./Heading.js";
 import ModeToggler from "./ModeToggler";
 import GuessNum from "./GuessNum";
+import InputComponet from "./InputComponent.js";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Heading firstName="Machan" />
       <Btn />
       <GuessNum />
+      <br />
+      <InputComponet />
     </div>
   );
 }
